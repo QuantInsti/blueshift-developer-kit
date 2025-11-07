@@ -1,0 +1,6 @@
+{
+    "extraPaths": ["."],
+    "reportMissingModuleSource": false,
+    "reportAttributeAccessIssue": false,
+    "reportWildcardImportFromLibrary":false
+}

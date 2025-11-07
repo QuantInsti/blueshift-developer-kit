@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blueshift-stubs"
+version = "5.0.0"
+description = "Stubs for blueshift"
+license = { text = "MIT" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Typing :: Stubs Only",
+]
+
+[tool.stub-uploader]
+partial = true
+
+[tool.pyright]
+reportMissingModuleSource = false
