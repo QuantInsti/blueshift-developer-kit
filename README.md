@@ -65,4 +65,4 @@ To make the most of this toolkit:
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/your-repository-name/issues) (once you create the repository).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/QuantInsti/blueshift-developer-kit/issues) (once you create the repository).
