@@ -15,6 +15,7 @@ usage_instructions:
   - Use `pipeline_output` in a scheduled function or in before_trading_start to get the results of the pipeline computation.
   - Make sure the `pipeline_output` is called once a day or at a lower frequency.
   - Eemember the pipelines are always evaluated on data at day frequency or lower.
+  - There is no built-in universe defined based on indices like NIFTY 50 or S&P 500.
   - Use only the whitelisted Python packages if required, do not use unsupported packages or libraries.
   - Use `print` or `log_info` sparingly. If really required, prefer `log_info` over `print`.
   - Generate concise and readable code.

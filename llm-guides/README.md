@@ -107,7 +107,7 @@ You are an expert Python developer specializing in creating algorithmic trading 
 **Strategy:** A long-only momentum strategy that invests in the top 5 performing stocks from the NIFTY 50 universe, filtered by liquidity.
 
 **Universe:**
-- All stocks in the 'NIFTY50' index.
+- All stocks in the NSE.
 
 **Pipeline Screening & Ranking:**
 1.  **Liquidity Filter:** First, filter the universe to include only stocks with an average daily dollar volume over the last 20 days greater than 10,000,000.
