@@ -380,7 +380,7 @@ Available `date_rules` and `time_rules`
 - `date_rules.week_start(offset=0)` or `date_rules.month_start(offset)`: run `offset` days after week or month start
 - `date_rules.week_end(offset=0)` or `date_rules.month_start(offset)`: run `offset` days before week or month end
 
-- `time_rules.at("15:00")`: run at the specified time (string in HH:MM format) - in this case at 3:00 PM
+- `time_rules.at("15:00")`: run at the specified time (string in HH:MM format or datetime.time) - in this case at 3:00 PM
 - `time_rules.every_nth_minute(n=1)`: run at every n-th minute (int)
 - `time_rules.market_open(minutes=0)`: run `minutes` minutes (int) after market opens
 - `time_rules.market_close(minutes=0)`: run `minutes` minutes (int) before market opens
@@ -441,6 +441,7 @@ These functions are used to place and manage orders. These must be imported from
 
 *   `square_off(assets=None)`: square-off existing positions.
     *   **Parameters:** `assets` (list) - A list of `Asset`. If `None` square-off all existing positions.
+    *   **Returns:** (bool): True if success.
 
 *   `get_open_orders()`: Retrieves a dictionary of `Order` objects, keyed by order IDs for all open orders.
 
